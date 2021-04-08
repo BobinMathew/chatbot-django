@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <form action="/" method="POST">
+        {% csrf_token %}
+        <h1>Welcome to Home</h1>
+        <input type="text" name="que">
+        <button >submit</button>
+    </form>
+    <br>
+    <label name="ans">{{ans}}</label>
+</body>
+</html>
