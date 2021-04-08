@@ -8,4 +8,4 @@ Chatbot based on ML integrated with Django
 - install dependencies in requirement.txt
 - run the django app on the local browser
 
-![chat-bot-1](https://user-images.githubusercontent.com/32351527/114024140-547ba000-9891-11eb-8275-0fc179f6df06.PNG)
+![Home - Personal - Microsoft_ Edge 2021-04-01 22-24-25](https://user-images.githubusercontent.com/32351527/114032968-7b8a9f80-989a-11eb-9360-516ad0c5aba1.gif)
