@@ -5,8 +5,11 @@ Chatbot based on ML integrated with Django
 - fork the repository
 - clone it to local machine
 - open in a vertual environmet (recommended)
-```
-aaa
+```python
+mkdir project_name
+$ cd project_name
+$ python -m venv venv
+venv\Scripts\activate
 ```
 - install the dependencies in requirement.txt
 ```
