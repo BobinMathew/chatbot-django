@@ -11,9 +11,10 @@ $ cd project_name
 $ python -m venv venv
 venv\Scripts\activate
 ```
+- install pytorch from the official [website](https://pytorch.org/get-started/locally/)
 - install the dependencies in requirement.txt
-```
-aaa
+```python
+$ pip install -r requirements.txt
 ```
 - run the django app on the browser
 
