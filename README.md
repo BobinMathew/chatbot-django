@@ -4,7 +4,7 @@ Chatbot based on ML integrated with Django
 ## Instructions
 - fork the repository
 - clone it to local machine
-- open in a vertual environmet (recommended)
+- open in a virtual environment (recommended)
 ```python
 mkdir project_name
 $ cd project_name
