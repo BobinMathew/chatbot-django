@@ -2,6 +2,7 @@ import random
 import json
 
 import torch
+# torch==1.8.1+cpu torchvision==0.9.1+cpu torchaudio===0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
 
 from .model import NeuralNet
 from .nltk_file import bag_of_words, tokenize
@@ -12,7 +13,6 @@ def activate(inp_que):
 
     with open('chatbot_app/data.json', 'r') as json_data:
         intents = json.load(json_data)
-
 
     FILE = "chatbot_app/data.pth"
     data = torch.load(FILE)
@@ -29,10 +29,7 @@ def activate(inp_que):
     model.eval()
 
     bot_name = "chat-bot"
-    # print("Let's chat! (type 'quit' to exit)")
     while True:
-        # sentence = "do you use credit cards?"
-        # sentence = input("You: "+inp_que)
         sentence = inp_que
         if sentence == "quit":
             break
@@ -52,8 +49,8 @@ def activate(inp_que):
         if prob.item() > 0.75:
             for intent in intents['intents']:
                 if tag == intent["tag"]:
-                    #print(f"{bot_name}: {random.choice(intent['responses'])}")
+                    # print(f"{bot_name}: {random.choice(intent['responses'])}")
                     return f"{bot_name}: {random.choice(intent['responses'])}"
         else:
-            #print(f"{bot_name}: I do not understand...")
+            # print(f"{bot_name}: I do not understand...")
             return f"{bot_name}: I do not understand..."

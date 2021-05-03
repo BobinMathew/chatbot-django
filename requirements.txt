@@ -18,5 +18,3 @@ torchvision==0.9.1+cpu
 tqdm==4.59.0
 typing-extensions==3.7.4.3
 whitenoise==5.2.0
-
-torch==1.8.1+cpu torchvision==0.9.1+cpu torchaudio===0.8.1 -f https://download.pytorch.org/whl/torch_stable.html

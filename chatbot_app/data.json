@@ -40,6 +40,15 @@
         "sugamait irikkunu"
       ]
     },
+
+    {
+      "tag": "college",
+      "patterns": ["affiliated university","university name ?", "name of the university"],
+      "responses": [
+        "APJ Abdul Kalam Technological University"
+      ]
+    },
+
     {
       "tag": "funny",
       "patterns": [
@@ -49,7 +58,7 @@
       ],
       "responses": [
         "Don't spell part backward. It's a trap.",
-        "Why do bees hum? They don’t remember the lyrics!",
+        "Why do bees hum? They don't remember the lyrics!",
         "Money talks. Mine always says goodbye.",
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
