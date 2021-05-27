@@ -40,8 +40,70 @@
                 padding: 10px;
 <!--                display: flex;-->
 <!--                flex-direction: column-reverse;-->
-
             }
+
+
+            .chat-container{
+                padding: 10px 10px;
+                display: flex;
+                justify-content: flex-end;
+                flex-direction: column;
+                align-self: flex-end;
+                color: #fff;
+            }
+            .jque{
+                min-width: 60px;
+                max-width: 210px;
+                padding: 14px 18px;
+                margin-left: 6px 8px;
+                background-color: #5b5377;
+                border-radius: 16px 16px 0 16px;
+                border: 1px solid #443f56;
+                align-self: flex-end;
+            }
+
+            .jans{
+                min-width: 60px;
+                max-width: 210px;
+                padding: 14px 18px;
+                margin: 6px 8px;
+                background-color: #6C8EA4;
+                border-radius: 16px 16px 16px 0;
+                border: 1px solid #54788e;
+                align-self: flex-start;
+            }
+
+            .q {
+	            align-self: flex-end;
+            }
+            .a {
+	            align-self: flex-start;
+            }
+
+
+            input[type=text] {
+                border: 2px solid #A9A9A9;
+                border-radius: 4px;
+                padding: 5px;
+            }
+
+            .button[type=submit]{
+                margin: 5px;
+            }
+
+            label {
+                /* display: inline-block; */
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+
+            .btn-success {
+                margin: 8px;
+                color: #fff;
+                background-color: #5cb85c;
+                border-color: #4cae4c;
+            }
+
     </style>
 
     <script>
@@ -80,8 +142,23 @@
                     console.log(json.ans);
 
                     $("#que").val('')
-                    $("#ans").append(json.ques+"<br>"+json.ans+"<br><br>");
+
+                    $("#ans").append(
+                        "<div class=\"chat-container\">"
+                            +"<div class=\"jque q\">"+json.ques+"</div>"
+                        +"</div>"
+                    );
                     updateScroll();
+                    setTimeout(function(){
+                        $("#ans").append(
+                            "<div class=\"chat-container\">"
+                                +"<div class=\"jans a\">"+json.ans+"</div>"
+                            +"</div>"
+                        );
+                        updateScroll();
+                    }, 1500);
+
+                    //updateScroll();
                 }
             })
 

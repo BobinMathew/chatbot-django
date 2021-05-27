@@ -42,10 +42,132 @@
     },
 
     {
-      "tag": "college",
+      "tag": "university",
       "patterns": ["affiliated university","university name ?", "name of the university"],
       "responses": [
         "APJ Abdul Kalam Technological University"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is this campus",
+        "How do I reach here",
+        "Where is this located",
+        "Is their a map I can follow?",
+        "location"
+      ],
+      "responses": [
+        "RIT Junction Nedumkuzhy Kottayam Velloor, Pampady, Kerala 686501. \nCheck this Link for more \nhttps://cutt.ly/rne4H6W"
+      ]
+    },
+    {
+      "tag": "college",
+      "patterns": ["What's the name of this college","college name ?", "name of the college"],
+      "responses": [
+        "Rajiv Gandhi Institute Of Technology (Government Engineering College, Kottayam)"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What are the different courses offered by this campus",
+        "courses offered by this college",
+        "streams offered",
+        "departments",
+        "streams"
+      ],
+      "responses": [
+        "RIT offers undergraduate and postgraduate courses. \nWhich one do you want to know in detail?"
+      ]
+    },
+    {
+      "tag": "undergraduate",
+      "patterns": [
+        "What are the different Undergraduate Courses offered by this campus",
+        "Undergraduate Courses offered by this college",
+        "Undergraduate Courses",
+        "UG"
+      ],
+      "responses": [
+        "RIT offers B.Tech & B.Arch courses. \nWhich one do you want to know in detail?"
+      ]
+    },
+    {
+      "tag": "B.Tech",
+      "patterns": [
+        "What are the different departments in B.Tech",
+        "What about BTech courses",
+        "departments in B.Tech offered by this college",
+        "streams in B.Tech",
+        "BTech"
+      ],
+      "responses": [
+        "RIT offers \nCivil Engineering, \nMechanical Engineering, \nElectrical & Electronics Engineering, \nElectronics & Communication Engineering, \nComputer Science & Engineering"
+      ]
+    },
+    {
+      "tag": "B. Arch",
+      "patterns": [
+        "What are the different departments in B.Arch",
+        "What about B.Arch",
+        "departments in B.Arch offered by this college",
+        "streams in B.Arch",
+        "BArch"
+      ],
+      "responses": [
+        "RIT offers Architecture dept. under B.Arch course"
+      ]
+    },
+    {
+      "tag": "Postgraduate",
+      "patterns": [
+        "What are the different Postgraduate Courses offered by this campus",
+        "Postgraduate Courses offered by this college",
+        "Postgraduate Courses",
+        "PG"
+      ],
+      "responses": [
+        "RIT offers M.Tech & MCA courses. \nWhich one do you want to know in detail?"
+      ]
+    },
+    {
+      "tag": "M.Tech",
+      "patterns": [
+        "What are the different departments in M.Tech",
+        "What about M.Tech courses",
+        "departments in M.Tech offered by this college",
+        "streams in M.Tech",
+        "MTech"
+      ],
+      "responses": [
+        "RIT offers \nCivil Engineering , \nMechanical Engineering, \nElectrical & Electronics Engineering, \nElectronics & Communication Engineering, \nComputer Science & Engineering. \nAll of them have Specialization"
+      ]
+    },
+    {
+      "tag": "Specialization",
+      "patterns": [
+        "What are the different Specialization in M.Tech",
+        "Specialization in M.Tech offered by this college",
+        "Specialization in M.Tech",
+        "Specialization"
+      ],
+      "responses": [
+        "RIT offers \nCivil Engineering-Transportation Engineering , \nMechanical Engineering-Industrial Engg. & Management, \nElectrical & Electronics Engineering-Industrial Drives & Control, \nElectronics & Communication Engineering-Advanced Communication and Information System & Advanced Electronics and Communication, \nComputer Science & Engineering-Computer Science and Engineering."
+      ]
+    },
+    {
+      "tag": "MCA",
+      "patterns": [
+        "What are the different departments in MCA",
+        "What about MCA",
+        "departments in MCA offered by this college",
+        "streams in MCA",
+        "MCA",
+        "Master Of Computer Application"
+      ],
+      "responses": [
+        "RIT offers a 2 year MCA programme (Master Of Computer Application)"
       ]
     },
 
