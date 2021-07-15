@@ -23,3 +23,5 @@ $ pip install -r requirements.txt
 https://user-images.githubusercontent.com/32351527/116606097-d9684f80-a94d-11eb-90c5-6f59ab7a025e.mp4
 
 https://www.loom.com/share/949815d80e9f4a4f86c2c88140fac100
+
+![MP-UI-2](https://user-images.githubusercontent.com/32351527/125819794-e90a1cf4-94f1-4da4-a64b-1d0c163a421c.png)
